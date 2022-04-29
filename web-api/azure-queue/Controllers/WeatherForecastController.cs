@@ -38,7 +38,7 @@ public class WeatherForecastController : ControllerBase
 
         _queueClient.CreateIfNotExists();
 
-        if (_queueClient.Exists()) //message will be visible after 10 sec and disappear after 40.
+        if (_queueClient.Exists()) //message will be visible after 60 sec and disappear after.
             await _queueClient.SendMessageAsync(message, TimeSpan.FromSeconds(60));
     }
 }
