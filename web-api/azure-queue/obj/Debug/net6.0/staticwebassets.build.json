@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Aw9OYhvsTj6b+9vDRbGsjir5C7Kw0UnF4e46uNsaFXw=",
+  "Source": "azure-queue",
+  "BasePath": "_content/azure-queue",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
