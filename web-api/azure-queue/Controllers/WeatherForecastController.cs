@@ -26,17 +26,15 @@ public class WeatherForecastController : ControllerBase
     {
         return Enumerable.Range(1, 5).Select(index => new WeatherForecast
         {
-            Date = DateTime.Now.AddDays(index),
-            TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+            Message = Summaries[Random.Shared.Next(Summaries.Length)]
         })
         .ToArray();
     }
 
     [HttpPost]
-    public async Task Post([FromBody] WeatherForecast data)
+    public async Task Post([FromBody] WeatherForecast msg)
     {
-        var message = JsonSerializer.Serialize(data);
+        var message = JsonSerializer.Serialize(msg);
 
         _queueClient.CreateIfNotExists();
 

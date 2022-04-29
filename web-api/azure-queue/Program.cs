@@ -8,11 +8,12 @@ var builder = WebApplication.CreateBuilder(args);
 // builder.Services.AddHostedService<Service>();
 builder.Services.AddAzureClients(builder =>
 {
-    builder.AddClient<QueueClient, QueueClientOptions>((_, _, _) =>
+    builder.AddClient<QueueClient, QueueClientOptions>((options, _, _) =>
     {
+        options.MessageEncoding = QueueMessageEncoding.Base64;
         var connectionString = "DefaultEndpointsProtocol=https;AccountName=teste;AccountKey=Uj5O3f5tQJEGbW0ZERx+LkCRHRDpY1eK278k5mxFs9TrjrMQFsufHaZ/XbLyF6swaJtPdTmKxHPkVbIdlYoIZQ==;EndpointSuffix=core.windows.net";
         var queueName = "messages";
-        return new QueueClient(connectionString, queueName);
+        return new QueueClient(connectionString, queueName, options);
     });
 });
 

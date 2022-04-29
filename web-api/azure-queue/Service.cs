@@ -28,7 +28,7 @@ namespace azure_queue
                     //do smt to process the data
 
                     //if the message is not deleted, it'll be available to be read in the next process
-                    await queueClient.DeleteMessageAsync(queueMessage.Value.MessageId, queueMessage.Value.PopReceipt);
+                    //await queueClient.DeleteMessageAsync(queueMessage.Value.MessageId, queueMessage.Value.PopReceipt);
                 }
 
                 await Task.Delay(TimeSpan.FromSeconds(10));
