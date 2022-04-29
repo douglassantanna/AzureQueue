@@ -1053,11 +1053,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\azure-queue\\azure-queue.csproj",
+      "projectUniqueName": "C:\\dev\\omie-queue\\web-api\\azure-queue\\azure-queue.csproj",
       "projectName": "azure-queue",
-      "projectPath": "C:\\dev\\azure-queue\\azure-queue.csproj",
+      "projectPath": "C:\\dev\\omie-queue\\web-api\\azure-queue\\azure-queue.csproj",
       "packagesPath": "C:\\Users\\DouglasCraici\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\azure-queue\\obj\\",
+      "outputPath": "C:\\dev\\omie-queue\\web-api\\azure-queue\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DouglasCraici\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t75ZjBGcUTjj74ug9iRyQXaRQtB54KT3vOg1dwaVkk6JrV5sdP/ayt0VRYXHGmUpe1aeuEEvP+/4VATO1L1gcA==",
+  "dgSpecHash": "V0RaYR+0TN6S/IBZ/tdEFDn2M/4CmZeRSoc08b8YdMBG/fRfZVitTo1QTASMigrKKJOFjAuc8TsE5LcNkfBEkw==",
   "success": true,
-  "projectFilePath": "C:\\dev\\azure-queue\\azure-queue.csproj",
+  "projectFilePath": "C:\\dev\\omie-queue\\web-api\\azure-queue\\azure-queue.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DouglasCraici\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\DouglasCraici\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
