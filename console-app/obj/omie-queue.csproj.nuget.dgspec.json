@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Clouddata\\POCS\\omie-queue\\omie-queue.csproj": {}
+    "C:\\dev\\omie-queue\\console-app\\omie-queue.csproj": {}
   },
   "projects": {
-    "C:\\Clouddata\\POCS\\omie-queue\\omie-queue.csproj": {
+    "C:\\dev\\omie-queue\\console-app\\omie-queue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Clouddata\\POCS\\omie-queue\\omie-queue.csproj",
+        "projectUniqueName": "C:\\dev\\omie-queue\\console-app\\omie-queue.csproj",
         "projectName": "omie-queue",
-        "projectPath": "C:\\Clouddata\\POCS\\omie-queue\\omie-queue.csproj",
+        "projectPath": "C:\\dev\\omie-queue\\console-app\\omie-queue.csproj",
         "packagesPath": "C:\\Users\\DouglasCraici\\.nuget\\packages\\",
-        "outputPath": "C:\\Clouddata\\POCS\\omie-queue\\obj\\",
+        "outputPath": "C:\\dev\\omie-queue\\console-app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DouglasCraici\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\DouglasCraici\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +52,14 @@
               "target": "Package",
               "version": "[12.9.0, )"
             },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -70,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
