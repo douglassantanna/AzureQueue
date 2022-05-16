@@ -16,7 +16,7 @@ namespace omie_queue
             var builder = new ConfigurationBuilder()
                    .AddJsonFile("appsettings.json");
             var config = builder.Build();
-            var connectionString = config["AzureQueue"];
+            var connectionString = config["AzureQueueConnString"];
             var nomeFila = config["QueueName"];
             var mensagemParaAdd = "Mensagem 01";
 
