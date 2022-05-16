@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "V0RaYR+0TN6S/IBZ/tdEFDn2M/4CmZeRSoc08b8YdMBG/fRfZVitTo1QTASMigrKKJOFjAuc8TsE5LcNkfBEkw==",
+  "dgSpecHash": "rPfiIcVvqmnmPZEip0Y4vBNi3DL5nwasBAv0gGZFY9J2yftIcqRwCO2bHMBL9YrEMLkVprYBIeKujA0zFXn+wQ==",
   "success": true,
   "projectFilePath": "C:\\dev\\omie-queue\\web-api\\azure-queue\\azure-queue.csproj",
   "expectedPackageFiles": [

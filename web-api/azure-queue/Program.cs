@@ -1,5 +1,4 @@
 using Azure.Storage.Queues;
-using azure_queue;
 using Microsoft.Extensions.Azure;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +10,7 @@ builder.Services.AddAzureClients(b =>
     b.AddClient<QueueClient, QueueClientOptions>((options, _, _) =>
     {
         options.MessageEncoding = QueueMessageEncoding.Base64;
-        var connectionString = builder.Configuration["AzureConnString"];
+        var connectionString = builder.Configuration["AzureQueueConnString"];
         var queueName = builder.Configuration["QueueName"];
         return new QueueClient(connectionString, queueName, options);
     });
